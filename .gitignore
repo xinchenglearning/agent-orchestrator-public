@@ -17,9 +17,9 @@ id_ed25519*
 # Agent runtime state
 /.agent-orchestrator/
 /.worktrees/
-evidence/
-transcripts/
-model-logs/
+/evidence/
+/transcripts/
+/model-logs/
 *.session.json
 
 # Build and test outputs
