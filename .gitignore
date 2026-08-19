@@ -1,0 +1,34 @@
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cert
+id_rsa*
+id_ed25519*
+
+# Agent runtime state
+/.agent-orchestrator/
+/.worktrees/
+evidence/
+transcripts/
+model-logs/
+*.session.json
+
+# Build and test outputs
+/bin/
+/coverage.out
+/dist/
+*.test
+*.prof
+*.out
+
+# Go cache/vendor overrides
+vendor/
